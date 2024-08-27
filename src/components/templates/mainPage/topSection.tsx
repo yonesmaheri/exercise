@@ -16,7 +16,7 @@ function TopSectionMainPage() {
             </div>
           </div>
           <div className="bg-[#E8E8E8] p-3 rounded-md hidden lg:flex items-center h-[50px] lg:h-[55px] w-[280px] gap-[10px]">
-            <Image src={"/ellipse1.png"} alt="logo" width={40} height={40} />
+            <Image src={"/profile.png"} alt="profile" width={40} height={40} />
             <p className="text-[#727272]">ابوالفضل عزیز خوش آمدی</p>
           </div>
           <div className="bg-[#E8E8E8] p-3 rounded-md flex items-center justify-center min-w-fit h-[50px] lg:h-[55px] gap-[10px]">

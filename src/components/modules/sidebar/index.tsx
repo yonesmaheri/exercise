@@ -77,7 +77,7 @@ function SideBar() {
       <div className="w-full flex flex-col items-center gap-[15px]">
         <div className="py-[13px] w-full rounded-lg bg-[#f3f3f3] flex flex-col items-center gap-[10px]">
           <Image
-            src={"/ellipse1.png"}
+            src={"/profile.png"}
             alt="profile pic"
             width={40}
             height={40}
