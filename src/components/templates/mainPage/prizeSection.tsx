@@ -1,3 +1,4 @@
+import MobileStartIcon from "@/components/modules/icons/mobStart";
 import StarIcon from "@/components/modules/icons/prizeStar";
 import PrizeCard from "@/components/modules/prizeCard";
 import React from "react";
@@ -32,8 +33,8 @@ function PrizeSection() {
 
       <div className="lg:hidden flex flex-col gap-4">
         <div className="flex items-center gap-7 text-white w-full">
-          <div className="bg-[#262630] rounded-xl text-[10px]">
-            <StarIcon />
+          <div className="bg-[#262630] rounded-xl text-[10px] w-[90px] h-[65px] flex items-center justify-center">
+            <MobileStartIcon />
           </div>
           <div className="bg-[#565662] flex items-center w-full rounded-[15px] justify-between">
             <button className="py-5 text-white w-[50%] text-center">

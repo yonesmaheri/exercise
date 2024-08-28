@@ -21,7 +21,7 @@ function TopSectionMainPage() {
           </div>
           <div className="bg-[#E8E8E8] p-3 rounded-md flex items-center justify-center min-w-fit h-[50px] lg:h-[55px] gap-[10px]">
             <WalletIcon />
-            <p className="text-[#727272] text-sm lg:text-base">
+            <p className="font-bold text-[#727272] text-[12px] lg:text-base">
               21,265,000 تومان
             </p>
           </div>
