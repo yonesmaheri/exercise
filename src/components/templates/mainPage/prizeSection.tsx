@@ -32,15 +32,15 @@ function PrizeSection() {
       </div>
 
       <div className="lg:hidden flex flex-col gap-4">
-        <div className="flex items-center gap-7 text-white w-full">
-          <div className="bg-[#262630] rounded-xl text-[10px] w-[90px] h-[65px] flex items-center justify-center">
+        <div className="flex items-center gap-4 text-white w-full">
+          <div className="bg-[#262630] rounded-xl text-[10px] w-[60px] h-[50px] lg:w-[90px] lg:h-[65px] flex items-center justify-center">
             <MobileStartIcon />
           </div>
           <div className="bg-[#565662] flex items-center w-full rounded-[15px] justify-between">
-            <button className="py-5 text-white w-[50%] text-center">
+            <button className="h-[50px] lg:h-[65px] text-white w-[50%] text-center">
               جوایز هتل
             </button>
-            <button className="py-5 bg-[#262630] rounded-[12px] w-[50%] text-center">
+            <button className="h-[50px] lg:h-[65px] bg-[#262630] rounded-[12px] w-[50%] text-center">
               جوایز مرکز خرید
             </button>
           </div>

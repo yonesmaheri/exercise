@@ -9,10 +9,10 @@ function PrizeCard() {
       className="w-full flex lg:flex-row gap-4 lg:gap-0 flex-col items-center p-2 justify-between bg-white rounded-[15px]"
     >
       <div className="flex sm:items-center sm:justify-between w-full lg:w-fit gap-4">
-        <div className="border-2 border-[#5F5F72] bg-[#262630] flex items-center justify-center rounded-xl w-[90px] h-[65px] lg:w-[103px] lg:h-[103px]">
-          <Image src={"/logo-sample 4.png"} alt="logo" width={50} height={47} />
+        <div className="border-2 border-[#5F5F72] bg-[#262630] flex items-center justify-center rounded-xl w-[70px] h-[50px] lg:w-[103px] lg:h-[103px]">
+          <Image src={"/logo-sample 4.png"} alt="logo" width={50} height={47} className="w-[60%]"/>
         </div>
-        <div className="bg-[#F0F0F0] text-sm font-bold h-full w-full rounded-xl p-3 lg:hidden flex items-center">
+        <div className="bg-[#F0F0F0] text-sm font-bold w-full rounded-xl p-3 lg:hidden flex items-center">
           خرید از فروشگاه زنجیره ای رفاه
         </div>
       </div>
@@ -54,8 +54,8 @@ function PrizeCard() {
       </div>
 
       <div className="flex lg:flex-col  h-full items-center justify-between lg:justify-around w-full lg:w-[200px]">
-        <span>اعتبار کد : 1403/02/11</span>
-        <button className="bg-[#1FBC42] text-white py-3 px-6 rounded-xl">
+        <span className="lg:text-base text-sm">اعتبار کد : 1403/02/11</span>
+        <button className="bg-[#1FBC42] text-white lg:text-base text-sm lg:py-3 py-2 lg:px-6 px-3 rounded-xl">
           دریافت جایزه
         </button>
       </div>
