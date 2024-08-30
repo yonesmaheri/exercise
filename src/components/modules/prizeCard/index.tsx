@@ -17,7 +17,7 @@ function PrizeCard() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-between h-full w-full lg:w-[357px] ">
+      <div className="flex flex-col justify-between h-full w-full  lg:w-[357px] ">
         <div className="bg-[#F0F0F0] w-full hidden lg:block font-bold text-base md:text-sm rounded-xl p-3">
           خرید از فروشگاه زنجیره ای رفاه
         </div>
